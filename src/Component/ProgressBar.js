@@ -8,9 +8,9 @@ export default class ProgressBar extends Component {
         return (
             <View style={Styles.progressBarStyle}>
             
-                <Progress.Bar progress={this.props.passedProgressVal} width={200}/>
+                <Progress.Bar color='#0fc66a' progress={this.props.passedProgressVal} width={200}/>
             
-                <Text style={Styles.progressBarText}>{ (this.props.passedProgressVal)* 100}%</Text>
+                <Text style={Styles.progressBarText}>{ (this.props.passedProgressVal)* 100}</Text>
             
             </View>
         );

@@ -4,12 +4,11 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#faf8f6',
   },
   dashBoardHeaderImage: {
     alignItems: 'center',
     flexDirection: 'column',
-    backgroundColor: '#F5FCFF',
   },
   welcome: {
     fontSize: 20
@@ -17,11 +16,7 @@ export default StyleSheet.create({
   dashboardHeaderImage: {
     width: 200,
     height: 200,
-    borderRadius: 200 / 2,
     overflow: "hidden",
-    borderWidth: 3,
-    borderColor: "#f2f2f2",
-    overflow: 'hidden',
   },
   dashboardHeaderImageText: {
     color: '#0fc66a',
@@ -49,13 +44,12 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ddd',
     borderBottomWidth: 0,
-    shadowColor: '#fff5',
+    shadowColor: '#fffff5',
     
     shadowOpacity: 0.8,
     shadowRadius: 2,
     margin: 3,
     padding: 5,
-    marginTop: 10,
   },
   cardViewImage: {
     width: 70,
